@@ -1,2 +1,98 @@
 
 this is a test
+whatever you want
+explorer
+echo "hello world"
+echo $PATH
+ls
+pwd
+cd "OneDrive - Delft University of Technology"/
+ls
+cd Desktop
+ls
+cd ~
+pwd
+cd "/c/user/ndintzner/OneDrive - Delft Univerity of Technology/Desktop"
+cd "/c/user/ndintzner/OneDrive - Delft University of Technology/Desktop"
+cd "/c/User/ndintzner/OneDrive - Delft University of Technology/Desktop"
+cd "/c/Users/ndintzner/OneDrive - Delft University of Technology/Desktop"
+cd "/c/users/ndintzner/OneDrive - Delft University of Technology/Desktop"
+cd /c/users/ndintzner/OneDrive - Delft University of Technology/Desktop
+ls
+clear
+cd shell-lesson-data
+pwd
+ls
+ls -l
+ls --help
+man ls
+ls -a
+ls -la
+cd ..
+cd 
+pwd
+cd OneDrive\ -\ Delft\ University\ of\ Technology/Desktop/shell-lesson-data
+ls
+ls exercise-data/
+ls exercise-data/alkanes/
+ls exercise-data/alkanes/cubane.pdb
+ls exercise-data/alkanes/cubane.pdn
+pwd
+ls
+cd exercise-data/writing
+ls
+mkdir thesis
+ls 
+mkdir ../project/data
+mkdir -p ../project/data
+ls ..
+ls ../project
+mkdir -p ../project/results ../project/outputs
+ls ../project
+cd thesis
+ls
+nano draft.txt
+ls
+nano draft.txt
+ls
+ls -la
+mv draft.txt quotes.txt
+ls
+cd ..
+mv thesis/quotes.txt .
+ls
+ls thesis
+cp quotes.txt thesis/
+ls thesis
+cp quotes.txt thesis/quotations.txt
+ls thesis
+ls
+cp thesis thesis-backup
+cp --help
+cp -r thesis thesis-backup 
+ls
+ls thesis-backup/
+cat thesis/quotations.txt 
+cat thesis-backup/quotations.txt 
+ls
+rm quotes.txt
+ls
+rm thesis/quotes.txt 
+ls thesis
+rm thesis
+rm -r thesis
+cd ..
+ls
+cd alkanes/
+ls
+ls cubane.pdb
+ls *.pdb
+ls p*
+ls p*.pdb
+ls
+ls ??????.pdb
+clear
+pwd
+ls
+touch bob
+ls
