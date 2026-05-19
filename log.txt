@@ -119,3 +119,90 @@ cat lengths.txt
 sort lengths.txt 
 sort --help
 sort lengths.txt > sorted-lengths.txt
+cat sorted-lengths.txt 
+head sorted-lengths.txt 
+head -n 1 sorted-lengths.txt 
+tail -n 1 sorted-lengths.txt 
+wc -l *.pdb 
+wc -l *.pdb | sort -n 
+wc -l *.pdb | sort -n | tail -n 2
+wc -l *.pdb | sort -n | tail -n 2 | head -n 1
+wc -l ??????.pdb | sort -n | tail -n 2 | head -n 1
+touch metrics.txt
+echo "1st round" > metrics.txt 
+cat metrics.txt 
+wc -l *.pdb >> metrics.txt 
+cat metrics.txt 
+echo "sorted lines:" >> metrics.txt
+wc -l *.pdb | sort >> metrics.txt
+cat metrics.txt 
+echo "longest file" >> metrics.txt
+wc -l *.pdb | sort | tail -n 2 | head -n 1 >> metrics.txt
+cat metrics.txt 
+cd ../creatures/
+ls
+head -n 5 basilisk.dat minotaur.dat unicorn.dat 
+nano heads.sh
+sh heads.sh 
+nano heads.sh
+sh heads.sh 
+nano heads.sh 
+sh heads.sh 
+cd ..
+sh heads.sh
+sh creatures/heads.sh 
+ls
+cd creatures/
+ls
+cp *.dat original-*.dat 
+nano backup-files.sh
+sh backup-files.sh 
+ls
+rm original*
+ls
+sh backup-files.sh 
+nano backup-files.sh 
+cd ..
+sh creatures/backup-files.sh 
+nano creatures/backup-files.sh 
+ls
+nano creatures/backup-files.sh 
+cd ..
+sh exercise-data/creatures/backup-files.sh 
+nano exercise-data/creatures/backup-files.sh 
+sh exercise-data/creatures/backup-files.sh 
+nano exercise-data/creatures/backup-files.sh 
+ls
+cd exercise-data/
+l
+ls
+cd alkanes/
+head -n 15 octane.pdb | tail -n 5
+nano middle.sh 
+sh middle.sh 
+sh middle.sh octane.pdb
+nano middle.sh 
+sh middle.sh octane.pdb
+nano middle.sh 
+sh middle.sh octane.pdb 15 5
+sh middle.sh 15 octane.pdb 5
+ls
+cd ..
+ls
+cd project/
+ls
+cd ..
+ls
+cd writing/
+ls
+cd ..
+nano alkanes/middle.sh 
+cd alkanes/
+./middle.sh
+sh middle.sh 
+nano middle.sh 
+hisotry
+history
+ls
+cd ../writing/
+ls
