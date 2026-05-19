@@ -96,3 +96,26 @@ pwd
 ls
 touch bob
 ls
+cat bob
+rm bob
+ls
+wc --help
+wc methane.pdb 
+wc methane.pdb ethane.pdb 
+ls
+wc *pdb
+wc -l *pdb
+wc -l ??????.pdb
+wc *.pdb -l 
+wc *.pdb -l > lengths.txt
+ls
+cat lengths.txt 
+wc ??????.pdb -l > lengths.txt
+cat lengths.txt 
+wc *.pdb -l > lengths.txt
+cat lengths.txt 
+wc -l *.pdb > lengths.txt
+cat lengths.txt 
+sort lengths.txt 
+sort --help
+sort lengths.txt > sorted-lengths.txt
